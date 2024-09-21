@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- Title TextView -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:text="Lagna Kundali"
+        android:textStyle="bold"
+        android:background="#673AB7"
+        android:textSize="4mm"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+
+    <!-- Name Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textStyle="bold"
+        android:layout_marginLeft="2mm"
+        android:textSize="4mm"
+        android:textColor="#673AB7"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Name Input Field -->
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2mm"
+        android:layout_marginRight="2mm"
+        android:hint="Enter Name"
+        android:background="@drawable/rounded_edit_text"
+        android:padding="12dp"
+        android:textColor="#000000"/>
+
+    <!-- Age input Field-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2mm"
+        android:textStyle="bold"
+        android:text="Age"
+        android:textSize="4mm"
+        android:textColor="#673Ab7"
+        android:layout_marginTop="16dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2mm"
+        android:layout_marginRight="2mm"
+        android:hint="Enter Age"
+        android:inputType="number"
+        android:background="@drawable/rounded_edit_text"
+        android:padding="12dp"
+        android:textColor="#000000"/>
+
+
+    <!-- Birth Date Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2mm"
+        android:textStyle="bold"
+        android:text="Birth Date"
+        android:textSize="4mm"
+        android:textColor="#673AB7"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Birth Date Input Field -->
+    <EditText
+        android:id="@+id/datePicker"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="2mm"
+    android:layout_marginRight="2mm"
+    android:hint="Enter Birth Date"
+    android:background="@drawable/rounded_edit_text"
+    android:padding="12dp"
+    android:inputType="text"
+    android:textColor="#000000"/>
+
+    <!-- Birth Time Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2mm"
+        android:textStyle="bold"
+        android:text="Birth Time"
+        android:textSize="4mm"
+        android:textColor="#673AB7"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Birth Time Input Field -->
+    <EditText
+        android:id="@+id/timePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2mm"
+        android:layout_marginRight="2mm"
+        android:hint="Enter Birth Time"
+        android:background="@drawable/rounded_edit_text"
+        android:padding="12dp"
+        android:inputType="text"
+        android:textColor="#000000"/>
+
+    <!-- Birth Place Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2mm"
+        android:text="Birth Place"
+        android:textStyle="bold"
+        android:textSize="4mm"
+        android:textColor="#673AB7"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Birth Place Input Field -->
+    <TextView
+        android:id="@+id/placePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2mm"
+        android:layout_marginRight="2mm"
+        android:hint="Enter Birth Place"
+        android:inputType="text"
+        android:background="@drawable/rounded_edit_text"
+        android:padding="12dp"
+        android:textColor="#000000"/>
+
+    <!-- Submit Button -->
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginLeft="3mm"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#FFC107"
+        android:padding="12dp"
+        android:background="@drawable/rounded_edit_text"
+        android:layout_marginTop="24dp"/>
+</LinearLayout>
